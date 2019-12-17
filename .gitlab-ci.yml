@@ -1,0 +1,15 @@
+image: "nikolaik/python-nodejs"
+
+stages:
+  - test
+
+dev:
+  stage: test 
+  only:
+    - master
+  before_script:
+    - npm config set prefix /usr/local
+    - npm install -g serverless
+  script:
+    - serverless deploy --stage dev --region ap-south-1 --verbose
+  environment: dev
