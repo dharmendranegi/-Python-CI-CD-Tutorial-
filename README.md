@@ -96,7 +96,7 @@ In a .gitlab-ci.yml file in the root of your project, place the following code:
 This example code does the following:
 
    Uses the node and python image for all GitLab CI builds.
-    As we are deploying python function using serverless framework and serverless framwork is based on npm so we need an image which consist both python and npm configuration. I have used [https://hub.docker.com/r/nikolaik/python-nodej](nikolaik/python-nodejs)image form docker Hub.
+    As we are deploying python function using serverless framework and serverless framwork is based on npm so we need an image which consist both python and npm configuration. I have used [https://hub.docker.com/r/nikolaik/python-nodej](nikolaik/python-nodejs) image form docker Hub.
 
     only:
     - master   # it will run pipeline on every push to master branch. If you want to run pipeline on every branch commit you can remove it.
