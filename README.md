@@ -14,12 +14,12 @@ In the following example, you will:
 
 **Steps**:
 The example consists of the following steps:
-    1. Creating a Lambda hello function
-    2. Creating a serverless.yml file
-    3. Crafting the .gitlab-ci.yml file
-    4. Setting up your AWS credentials with your GitLab account
-    5. Deploying your function
-    6. Testing the deployed function
+   1. Creating a Lambda hello function
+   2. Creating a serverless.yml file
+   3. Crafting the .gitlab-ci.yml file
+   4. Setting up your AWS credentials with your GitLab account
+   5. Deploying your function
+   6. Testing the deployed function
 
 **Creating a Lambda handler function**:
 
