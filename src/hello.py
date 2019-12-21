@@ -1,9 +1,6 @@
-import json
-
-
 def lambda_handler(event, context):
     """
-    Function to say Hello
+    Function to return Hello
     """
     message = "Hello ! Your function executed successfully."
 
