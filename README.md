@@ -1,4 +1,4 @@
-# -Python-CI-CD-Tutorial-
+# AWS-Python-Lambda-Git-CI-CD-Example.
   This project will help you to understand how to integrate **GitLab CI/CD** for **AWS**.
   Deploy AWS Lambda functions and create rich **serverless applications.**
 
