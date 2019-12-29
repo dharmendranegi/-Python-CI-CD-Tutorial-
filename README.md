@@ -119,12 +119,12 @@ git push the changes to your GitLab repository and the GitLab build pipeline wil
 In your GitLab deploy stage log, there will be output containing your AWS Lambda endpoint URL. The log line will look similar to this:
 
     endpoints:
-        GET - https://5hj381bhg2.execute-api.ap-south-1.amazonaws.com/dev/hello
+        GET - https://5hj381bhh9.execute-api.ap-south-1.amazonaws.com/dev/hello
 
 **Manually testing your function**
 Running the following curl command should trigger your function.
 
-    curl https://5hj381bhg2.execute-api.ap-south-1.amazonaws.com/dev/hello
+    curl https://5hj381bhh9.execute-api.ap-south-1.amazonaws.com/dev/hello
 
 That should output:
 
