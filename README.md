@@ -38,7 +38,7 @@ src is the standard location for serverless functions, but is customizable shoul
 
 In our case, lambda_handler defines the hello handler that will be referenced later in the serverless.yml
 
-You can learn more about the AWS Lambda Pyhton function handler and all its various options [here](https://docs.aws.amazon.com/lambda/latest/dg/python-programming-model.html)
+You can learn more about the AWS Lambda Python function handler and all its various options [here](https://docs.aws.amazon.com/lambda/latest/dg/python-programming-model.html)
 
 
 **Creating a** serverless.yml **file**
